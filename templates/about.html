@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Full Stack Development</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url("https://nutritionsource.hsph.harvard.edu/wp-content/uploads/2024/11/AdobeStock_321830101.jpeg") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .overlay {
+            background: rgba(255, 255, 255, 0.90);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: #fff;
+            margin: 50px auto;
+            padding: 40px;
+            width: 80%;
+            max-width: 1000px;
+            border-radius: 15px;
+            box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            text-align: center;
+            color: #1976d2;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.7;
+            color: #333;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            padding: 12px 20px;
+            background: #1976d2;
+            color: #fff;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #0d47a1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="overlay">
+        <div class="container">
+
+            <h2>About Full Stack Development</h2>
+
+            <p>
+                Full Stack Development is one of the most in-demand fields in the software industry, focusing on both frontend and backend application development. A full stack developer possesses the ability to design, build, manage, and deploy complete web applications by working with multiple technologies across different layers of software architecture. From creating attractive user interfaces to handling databases and server-side logic, full stack development plays a vital role in modern digital transformation.
+            </p>
+
+            <p>
+                The frontend part of full stack development deals with the visual and interactive elements of a website or application. Technologies such as HTML5, CSS3, JavaScript, Bootstrap, and modern frameworks help developers create responsive and user-friendly interfaces. The goal of frontend development is to provide users with smooth navigation, appealing designs, and interactive experiences across devices including desktops, tablets, and smartphones.
+            </p>
+
+            <p>
+                Backend development focuses on server-side programming, business logic, and database connectivity. Popular backend technologies include Python, Flask, Django, Node.js, PHP, and Java. Backend systems process user requests, manage authentication, perform calculations, and communicate with databases. They ensure that applications function efficiently, securely, and reliably while handling multiple users simultaneously.
+            </p>
+
+            <p>
+                Database management is another important component of full stack development. Databases such as MySQL, SQLite, MongoDB, and PostgreSQL are used to store, retrieve, and manage application data. Proper database design ensures efficient data handling, security, and scalability. Full stack developers work with CRUD operations (Create, Read, Update, Delete) to maintain smooth communication between the application and the database.
+            </p>
+
+            <p>
+                Full stack development also involves understanding APIs, version control systems, deployment platforms, and cloud technologies. APIs allow different applications to communicate with each other, while tools like Git and GitHub help developers manage code collaboration and track project changes. Deployment platforms such as Heroku, Render, AWS, and Netlify help in hosting applications for real-world usage.
+            </p>
+
+            <p>
+                One of the biggest advantages of full stack development is versatility. Full stack developers can handle complete project development independently, making them highly valuable in startups, software companies, and freelance projects. Their ability to understand both client-side and server-side development helps improve communication within teams and speeds up the software development lifecycle.
+            </p>
+
+            <p>
+                Full stack development is widely used in industries such as e-commerce, healthcare, banking, education, entertainment, and social media. Applications like online shopping websites, hospital management systems, learning platforms, and business dashboards are commonly developed using full stack technologies. The demand for skilled full stack developers continues to grow due to the increasing need for web-based solutions in every industry.
+            </p>
+
+            <p>
+                Learning full stack development provides students and professionals with strong career opportunities. It improves problem-solving skills, logical thinking, and practical programming knowledge. With the rise of modern web technologies, developers can create scalable, secure, and efficient applications that meet industry standards and user expectations.
+            </p>
+
+            <p>
+                In conclusion, full stack development is a powerful and dynamic field that combines creativity, programming, and system design to build complete software solutions. By mastering frontend technologies, backend programming, database management, and deployment processes, developers can create impactful applications that solve real-world problems and drive digital innovation.
+            </p>
+
+            <a href="{{ url_for('dashboard') }}" class="back-btn">Back</a>
+
+        </div>
+    </div>
+
+</body>
+</html>
